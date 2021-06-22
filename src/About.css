@@ -1,0 +1,91 @@
+ .aboutmepage
+{
+    border: solid;
+   
+    box-shadow: 10px 10px 	#0385fe;
+    background-color: rgb(255, 255, 255,0.2);
+    position: relative;
+    border: white;
+    
+}
+ .aboutmepage::after
+{
+    border-radius: 0 0 0px 0px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    content: '';
+    display: block;
+    height: 36.3em;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container img{
+ 
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+}
+
+.aboutme{
+    display: inline-block;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 16px;
+    
+}
+
+.aboutme h3{
+    letter-spacing: 3px;
+    margin-left: 300px;
+}
+.aboutme h6{
+    color: #0385fe;
+    margin-left: 330px;
+}
+.aboutme .smallnavbar{
+    margin-left: 270px;
+}
+
+.skills{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.maincontent button{
+    background-color: transparent;
+    border: transparent;
+}
+.links{
+    margin-left: 40px;
+}
+
+.skills ul{
+    list-style: none;
+}
+.links ul{
+    list-style: none;
+    
+}
+.links a{
+    color: black;
+}
+
+.skillslinks{
+    margin-left: 20px;
+    float: left;
+    margin-top: 50px;
+}
+
+#details{
+    display: table-cell;
+}
+
