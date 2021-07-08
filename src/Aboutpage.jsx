@@ -3,7 +3,6 @@ import './About.css';
 import "./Smallnav.css"
 import Details from './Details';
 import pic from './my.jpg';
-import Projectss from './Projects';
 class Aboutpage extends Component{
     constructor(props) {
         super(props);
@@ -15,13 +14,13 @@ class Aboutpage extends Component{
     }
     aboutme(e){
         e.preventDefault()
-        console.log("hello");
+    
         this.setState({aboutme : true})
         this.setState({project : false})
     }
     project(e){
         e.preventDefault()
-        console.log("project");
+      
         this.setState({project : true})
         this.setState({aboutme : false})
     }
@@ -40,7 +39,7 @@ class Aboutpage extends Component{
                             <h3>Mohit garg</h3>
                         </div>
                         <div className="row">
-                            <h6>Web Developer</h6>
+                            <h6>MERN stack Web Developer</h6>
                         </div>
                             <hr />
                         
